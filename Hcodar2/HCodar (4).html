@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+
+    n1 = parseInt(prompt("O primeiro numero: "));
+    n2 = parseInt(prompt("O segundo numero: "));
+    n3 = parseInt(prompt("O terceiro numero: "));
+    
+    if (n1 > n2 && n1 > n3){
+        if(n2>n3){
+            const n4 = n1 + n2;
+            alert(+n4+" é a soma dos numeros " +n1+" + "+n3)
+        } else{
+            const n4 = n3 + n1;
+            alert(+n4+" é a soma dos numeros " +n1+" + "+n2)
+        }   
+    } else if(n2 > n1 && n2 > n3){
+        if(n1>n3){
+            const n4 = n1 + n2;
+            alert(+n4+" é a soma dos numeros " +n2+" + "+n1)
+        } else{
+            const n4 = n2 + n3;
+            alert(+n4+" é a soma dos numeros " +n2+" + "+n3)
+        }   
+    } else if(n3 > n2 && n3 > n1){
+        if(n1>n2){
+            const n4 = n1 + n3;
+            alert(+n4+" é a soma dos numeros " +n3+" + "+n1)
+        } else{
+            const n4 = n2 + n3;
+            alert(+n4+" é a soma dos numeros " +n3+" + "+n2)
+        }  
+    } 
+    
+    else if (n1 >= n2 && n1 >= n3){
+        if(n2>n3){
+            const n4 = n1 + n3;
+            alert(+n4+" é a soma dos numeros " +n1+" + "+n3)
+        } else{
+            const n4 = n2 + n1;
+            alert(+n4+" é a soma dos numeros " +n1+" + "+n2)
+        }   
+    } else if(n2 >= n1 && n2 >= n3){
+        if(n1>n3){
+            const n4 = n1 + n2;
+            alert(+n4+" é a soma dos numeros " +n2+" + "+n1)
+        } else{
+            const n4 = n2 + n3;
+            alert(+n4+" é a soma dos numeros " +n2+" + "+n3)
+        }   
+    } else if(n3 >= n2 && n3 >= n1){
+        if(n1>n2){
+            const n4 = n1 + n3;
+            alert(+n4+" é a soma dos numeros " +n3+" + "+n1)
+        } else{
+            const n4 = n2 + n3;
+            alert(+n4+" é a soma dos numeros " +n3+" + "+n2)
+        }   
+    }
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

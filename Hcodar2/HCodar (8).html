@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var media1 = parseInt(prompt("Digite a primeira media: "));
+        var media2 = parseInt(prompt("Digite a segunda media: "));
+        var media3 = parseInt(prompt("Digite a terceira media: "));
+        var media4 = parseInt(prompt("Digite a quarta media: "));
+        var medias = [media1,media2,media3,media4];  
+        var resultado = 0;
+
+        for(var i=0; i<medias.length; i++){
+            if(medias[i]<=10){
+                resultado+=medias[i];
+            } else {
+                alert("Tente novamente");
+            }
+        }
+        media = resultado / 4;
+        if(media>=5){
+            alert("Você passou no teste");
+        } else {
+            alert("Tente novamente");
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
